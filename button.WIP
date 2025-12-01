@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,26 +9,26 @@
 
   <style>
     :root {
-      --my-color:#34495e;
-      --my-color-accent:#2c3e50;
-      --black: #3c3c3c;
-      --black-accent: #2d2d2d;
-      --blue: #809bce;
-      --blue-accent: #5c6f94;
+      --my-color:#dfd4ee;
+      --my-color-accent:#461220;
+      --black: #051007;
+      --black-accent: #00202e;
+      --blue: ##194a7a;
+      --blue-accent: ##476f95;
       --purple: #8a508f;
-      --purple-accent: #5d3661;
-      --mint: #b8e0d4;
-      --mint-accent: #8ba89f;
-      --pink: #eac4d5;
-      --pink-accent: #b495a3;
-      --green: #74a892;
-      --green-accent: #5e8675;
-      --red:#d74a49;
-      --red-accent:#b53f3f;
-      --orange:#d35400;
-      --orange-accent:#9e4102;
+      --purple-accent: #bc5090;
+      --mint: ##b8e0d4;
+      --mint-accent: ##d6eadf;
+      --pink: ##ffa0c5;
+      --pink-accent: ##ffb7c5;
+      --green: ##008585;
+      --green-accent: ##74a892;
+      --red:##d74a49;
+      --red-accent:##c7522a;
+      --orange:##ff8531;
+      --orange-accent:##ffa600;
       --yellow:#f1c40f;
-      --yellow-accent:#bd9a0c;
+      --yellow-accent:##ffde59;
     }
 
     button {
@@ -37,6 +39,7 @@
       font: inherit;
       cursor: pointer;
       outline: inherit;
+      width: 300px;
     }
 
     i {
@@ -45,7 +48,7 @@
 
     .btn {
       text-align: center;
-      color: #ffffff;
+      color: #051007;
       font-family: 'Manrope';
       display: inline-block;
       margin: 10px;
@@ -244,12 +247,34 @@
 
 <body>
 
-  <button class="btn large my-color rounded threeD" type="button" onclick="navigate()"> <i class="fa-regular fa-star"></i> My Button</button>
-  
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigate()"> <i class="fa-solid fa-star"></i></i>HOME</button>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigateinstagram()"><i class="fa-brands fa-square-instagram fa-lg"></i></i></i> INSTAGRAM </button>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigateprojects()"> <i class="fa-solid fa-folder-open"></i></i> PROJECTS </button>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigatetumblr()"> <i class="fa-solid fa-blog"></i></i></i> TUMBLR </button>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigaterosettastone()"> <i class="fa-solid fa-language"></i></i></i></i> ROSETTA STONE </button>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigatepinterest()"> <i class="fa-brands fa-pinterest"></i></i></i></i></i> PINTEREST </button>
+ 
   <script>
-    function navigate() {
-      window.open("https://example.com", '_blank').focus();
+    function navigate(){
+      window.open("https://www.notion.so/The-is-the-Beginning-26-2b58d41781068008928cc23da265ca5d", '').focus();
     }
+    function navigateinstagram(){
+      window.open("https://www.instagram.com/coffee_college.chronicles/", '').focus();
+    }
+    function navigateprojects(){
+      window.open("https://www.notion.so/Projects-2b78d417810680e59d7eeef0235624da", '').focus();
+    }
+    function navigatetumblr(){
+      window.open("https://coffee-collegechronicles.tumblr.com/", '').focus();
+    }
+
+    function navigaterosettastone(){
+        window.open("https://totale.rosettastone.com/", '').focus();
+      }
+      function navigatepinterest(){
+        window.open("https://www.pinterest.com/?utm_source=homescreen_icon").focus();
+      }
+    
   </script>
 
 </body>
